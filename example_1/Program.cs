@@ -63,7 +63,7 @@ namespace example_1
             complex2.re = 2;
             complex2.im = 2;
 
-            Console.WriteLine("Рассмотрим результат работы структуры:");
+            Console.WriteLine("Результат работы структуры:");
             Complex result = complex1.Plus(complex2);
             Console.WriteLine("Результом операции сложения чисел: " + complex1.ToString() + " и " + complex2.ToString() + " является "
                 + result.ToString());
